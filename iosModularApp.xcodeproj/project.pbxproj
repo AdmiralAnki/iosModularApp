@@ -99,12 +99,12 @@
 		B5F840B42A5B148400BB9C62 /* iosModularApp */ = {
 			isa = PBXGroup;
 			children = (
-				B5F840B52A5B148400BB9C62 /* AppDelegate.swift */,
-				B5F840B72A5B148400BB9C62 /* SceneDelegate.swift */,
-				B5F840B92A5B148400BB9C62 /* ViewController.swift */,
-				B5F840BB2A5B148400BB9C62 /* Main.storyboard */,
-				B5F840BE2A5B148700BB9C62 /* Assets.xcassets */,
-				B5F840C02A5B148700BB9C62 /* LaunchScreen.storyboard */,
+				B5F840EC2A5B150300BB9C62 /* AppDelegate */,
+				B5F840E82A5B14C000BB9C62 /* BusinessLogicLayer */,
+				B5F840E92A5B14CB00BB9C62 /* DataLayer */,
+				B5F840EA2A5B14D800BB9C62 /* Resources */,
+				B5F840E52A5B149900BB9C62 /* ServiceLayer */,
+				B5F840E62A5B14A200BB9C62 /* UILayer */,
 				B5F840C32A5B148700BB9C62 /* Info.plist */,
 			);
 			path = iosModularApp;
@@ -125,6 +125,70 @@
 				B5F840D82A5B148800BB9C62 /* iosModularAppUITestsLaunchTests.swift */,
 			);
 			path = iosModularAppUITests;
+			sourceTree = "<group>";
+		};
+		B5F840E52A5B149900BB9C62 /* ServiceLayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ServiceLayer;
+			sourceTree = "<group>";
+		};
+		B5F840E62A5B14A200BB9C62 /* UILayer */ = {
+			isa = PBXGroup;
+			children = (
+				B5F840EB2A5B14EF00BB9C62 /* Storyboards */,
+				B5F840E72A5B14AC00BB9C62 /* ViewControllers */,
+			);
+			path = UILayer;
+			sourceTree = "<group>";
+		};
+		B5F840E72A5B14AC00BB9C62 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B5F840B92A5B148400BB9C62 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B5F840E82A5B14C000BB9C62 /* BusinessLogicLayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BusinessLogicLayer;
+			sourceTree = "<group>";
+		};
+		B5F840E92A5B14CB00BB9C62 /* DataLayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataLayer;
+			sourceTree = "<group>";
+		};
+		B5F840EA2A5B14D800BB9C62 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B5F840BE2A5B148700BB9C62 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B5F840EB2A5B14EF00BB9C62 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B5F840BB2A5B148400BB9C62 /* Main.storyboard */,
+				B5F840C02A5B148700BB9C62 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		B5F840EC2A5B150300BB9C62 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				B5F840B52A5B148400BB9C62 /* AppDelegate.swift */,
+				B5F840B72A5B148400BB9C62 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -450,6 +514,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -478,6 +543,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
